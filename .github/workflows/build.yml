@@ -17,7 +17,14 @@ jobs:
       
       - name: Install Dependencies
         run: npm install
+<<<<<<< HEAD
       - name: Generate Prisma Generate
         run : npm run db:generate        
+=======
+      
+      - name: Generate prisma client
+        run: npm run db:generate
+        
+>>>>>>> 6e550e843679ea80e5ae08d25d33e0bc3f6165aa
       - name: Run Build
         run: npm run build
